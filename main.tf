@@ -19,4 +19,7 @@ resource "null_resource" "helloWorld1" {
   }
 }
 
-
+resource "random_pet" "name4" {
+ length    = "47"
+ separator = "-"
+}
